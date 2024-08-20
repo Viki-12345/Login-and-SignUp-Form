@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login and Signup Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <section class="container form-container">
+
+            <!-- Login Form -->
+
+             <div class="login-form">
+                <div class="content">
+                    <header>Login</header>
+                    <form action="#">
+                        <div class="input">
+                            <input type="email" placeholder="Email" class="email">
+                        </div>
+                        <div class="input">
+                            <input type="password" placeholder="Password" class="password">
+                            <i class='bx bxs-hide eye-icon'></i>
+                        </div>
+                        <div class="form-link">
+                            <a href="#" class="forgot-link">Forgot Password?</a>
+                        </div>
+                        <div class="login-btn">
+                            <button type="submit">Login</button>
+                        </div>
+                        <div class="form-link">
+                            <span>Don't have an account? <a href="#" class="link signup-link">Signup</a>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Signup Form -->
+             
+            <div class="signup-form">
+                <div class="content">
+                    <header>Signup</header>
+                    <form action="#">
+                        <div class="input">
+                            <input type="email" placeholder="Email" class="email">
+                        </div>
+                        <div class="input">
+                            <input type="password" placeholder="Password" class="password">
+                        </div>
+                        <div class="input">
+                            <input type="password" placeholder="Confirm Password" class="password">
+                            <i class='bx bxs-hide eye-icon'></i>
+                        </div>
+                        <div class="login-btn">
+                            <button type="submit">Signup</button>
+                        </div>
+                        <div class="form-link">
+                            <span>Already have an account? <a href="#" class="link login-link">Login</a>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
